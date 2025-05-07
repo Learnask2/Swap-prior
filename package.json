@@ -1,0 +1,28 @@
+{
+  "name": "prior-usdc-swap-bot",
+  "version": "1.0.0",
+  "description": "Auto swap bot for PRIOR and USDC tokens on Base Sepolia testnet",
+  "main": "swap.js",
+  "scripts": {
+    "start": "node swap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "base",
+    "sepolia",
+    "swap",
+    "bot",
+    "ethereum",
+    "prior",
+    "usdc"
+  ],
+  "author": "pony0nyo",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.8.0",
+    "fs": "0.0.1-security"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
